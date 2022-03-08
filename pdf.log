@@ -1,0 +1,109 @@
+2022-02-10 15:33:24,974 INFO submit button clicked
+2022-02-10 15:35:49,960 INFO submit button clicked
+2022-02-10 15:35:49,991 INFO inserting files in the field
+2022-02-10 15:39:16,037 INFO submit button clicked
+2022-02-10 15:39:16,037 INFO inserting files in the field
+2022-02-10 15:39:53,773 INFO submit button clicked
+2022-02-10 15:39:53,789 INFO inserting files in the field
+2022-02-10 18:48:24,852 INFO submit button clicked
+2022-02-10 18:48:24,868 INFO inserting files in the field
+2022-02-10 18:48:30,189 INFO merge button is clicked
+2022-02-10 18:48:30,189 ERROR error occured in merge_action
+2022-02-10 18:50:54,745 INFO submit button clicked
+2022-02-10 18:50:54,760 INFO inserting files in the field
+2022-02-10 18:50:58,824 INFO merge button is clicked
+2022-02-10 18:50:58,832 ERROR error occured in merge_action
+2022-02-10 18:50:58,832 ERROR name 'input_dir' is not defined
+Traceback (most recent call last):
+  File "C:\Users\91790\PycharmProjects\pythonProject2\main.py", line 53, in merge_action
+    result=checkfile.merge_pdf()
+  File "C:\Users\91790\PycharmProjects\pythonProject2\checkfile.py", line 22, in merge_pdf
+    all_files=search_my_file(input_dir,".pdf")
+NameError: name 'input_dir' is not defined
+2022-02-10 18:51:00,700 INFO merge button is clicked
+2022-02-10 18:51:00,700 ERROR error occured in merge_action
+2022-02-10 18:51:00,700 ERROR name 'input_dir' is not defined
+Traceback (most recent call last):
+  File "C:\Users\91790\PycharmProjects\pythonProject2\main.py", line 53, in merge_action
+    result=checkfile.merge_pdf()
+  File "C:\Users\91790\PycharmProjects\pythonProject2\checkfile.py", line 22, in merge_pdf
+    all_files=search_my_file(input_dir,".pdf")
+NameError: name 'input_dir' is not defined
+2022-02-10 18:54:01,191 INFO submit button clicked
+2022-02-10 18:54:01,191 INFO inserting files in the field
+2022-02-10 18:54:04,879 INFO merge button is clicked
+2022-02-10 18:54:04,879 ERROR error occured in merge_action
+2022-02-10 18:54:04,894 ERROR name 'datetime' is not defined
+Traceback (most recent call last):
+  File "C:\Users\91790\PycharmProjects\pythonProject2\main.py", line 53, in merge_action
+    result=checkfile.merge_pdf(path_var.get())
+  File "C:\Users\91790\PycharmProjects\pythonProject2\checkfile.py", line 23, in merge_pdf
+    current=datetime.datetime.now()
+NameError: name 'datetime' is not defined
+2022-02-10 18:55:35,371 INFO submit button clicked
+2022-02-10 18:55:35,387 INFO inserting files in the field
+2022-02-10 18:55:38,958 INFO merge button is clicked
+2022-02-10 18:55:39,239 ERROR error occured in merge_pdfinvalid literal for int() with base 10: b'/LJ'
+2022-02-10 18:55:39,255 ERROR error occured in merge_action
+2022-02-10 18:55:39,255 ERROR wrong # args: should be ".!text insert index chars ?tagList chars tagList ...?"
+Traceback (most recent call last):
+  File "C:\Users\91790\PycharmProjects\pythonProject2\main.py", line 54, in merge_action
+    res_output.insert(END,result)
+  File "C:\Users\91790\anaconda3\envs\pythonProject2\lib\tkinter\__init__.py", line 3772, in insert
+    self.tk.call((self._w, 'insert', index, chars) + args)
+_tkinter.TclError: wrong # args: should be ".!text insert index chars ?tagList chars tagList ...?"
+2022-02-10 19:00:11,861 INFO submit button clicked
+2022-02-10 19:00:11,861 INFO inserting files in the field
+2022-02-10 19:00:18,046 INFO merge button is clicked
+2022-02-10 19:00:18,186 ERROR error occured in merge_pdfinvalid literal for int() with base 10: b'/LJ'
+2022-02-10 19:02:00,628 INFO submit button clicked
+2022-02-10 19:02:00,628 INFO inserting files in the field
+2022-02-10 19:02:03,004 INFO merge button is clicked
+2022-02-10 19:02:03,015 ERROR error occured in merge_pdf[Errno 22] Invalid argument: 'input_dir+"\\"+str(current)+"mergedfile.pdf"'
+2022-02-10 19:09:48,586 INFO submit button clicked
+2022-02-10 19:09:48,586 INFO inserting files in the field
+2022-02-10 19:09:53,840 INFO merge button is clicked
+2022-02-10 19:09:53,840 ERROR error occured in merge_pdf[Errno 2] No such file or directory: "C:\\\\ineoron+'\\'+str(current)+'mergedfile.pdf'"
+2022-02-10 19:10:47,201 INFO submit button clicked
+2022-02-10 19:10:47,201 INFO inserting files in the field
+2022-02-10 19:10:49,802 INFO merge button is clicked
+2022-02-10 19:10:49,802 ERROR error occured in merge_pdf[Errno 2] No such file or directory: "C:\\ineoron+'\\'+str(current)+'mergedfile.pdf'"
+2022-02-10 19:12:40,098 INFO submit button clicked
+2022-02-10 19:12:40,098 INFO inserting files in the field
+2022-02-10 19:12:41,442 INFO merge button is clicked
+2022-02-10 19:12:41,458 ERROR error occured in merge_pdfwrite() argument must be str, not bytes
+2022-02-10 19:13:06,519 INFO submit button clicked
+2022-02-10 19:13:06,519 INFO inserting files in the field
+2022-02-10 19:13:11,605 INFO merge button is clicked
+2022-02-10 19:13:11,605 ERROR error occured in merge_pdfCannot read an empty file
+2022-02-10 19:14:29,660 INFO submit button clicked
+2022-02-10 19:14:29,660 INFO inserting files in the field
+2022-02-10 19:14:31,324 INFO merge button is clicked
+2022-02-10 19:14:31,324 ERROR error occured in merge_pdf'PdfFileReader' object has no attribute 'write'
+2022-02-10 19:23:48,583 INFO submit button clicked
+2022-02-10 19:23:48,583 INFO inserting files in the field
+2022-02-10 19:23:53,716 INFO merge button is clicked
+2022-02-10 19:32:10,288 INFO submit button clicked
+2022-02-10 19:32:10,288 INFO inserting files in the field
+2022-02-10 19:32:34,753 INFO merge button is clicked
+2022-02-10 19:37:30,744 INFO submit button clicked
+2022-02-10 19:37:30,744 INFO inserting files in the field
+2022-02-10 19:37:36,449 INFO merge button is clicked
+2022-02-10 20:07:31,856 DEBUG STREAM b'IHDR' 16 13
+2022-02-10 20:07:31,856 DEBUG STREAM b'sRGB' 41 1
+2022-02-10 20:07:31,856 DEBUG STREAM b'IDAT' 54 340583
+2022-02-10 20:08:22,141 DEBUG STREAM b'IHDR' 16 13
+2022-02-10 20:08:22,141 DEBUG STREAM b'sRGB' 41 1
+2022-02-10 20:08:22,141 DEBUG STREAM b'IDAT' 54 340583
+2022-02-10 20:08:33,204 DEBUG STREAM b'IHDR' 16 13
+2022-02-10 20:08:33,204 DEBUG STREAM b'sRGB' 41 1
+2022-02-10 20:08:33,204 DEBUG STREAM b'IDAT' 54 340583
+2022-02-10 20:08:48,904 DEBUG STREAM b'IHDR' 16 13
+2022-02-10 20:08:48,904 DEBUG STREAM b'sRGB' 41 1
+2022-02-10 20:08:48,904 DEBUG STREAM b'IDAT' 54 340583
+2022-02-12 09:29:17,413 INFO submit button clicked
+2022-02-12 09:29:17,422 INFO inserting files in the field
+2022-02-12 09:29:53,075 INFO merge button is clicked
+2022-03-03 22:16:57,495 INFO submit button clicked
+2022-03-03 22:16:57,495 INFO inserting files in the field
+2022-03-03 22:17:14,156 INFO merge button is clicked
