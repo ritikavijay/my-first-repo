@@ -6,7 +6,7 @@ steps to use this:
     open this folder in pycharm
     Open the terminal in pycharm and install few packages as :
       pip install PyPDF2
-      pip install PILlow
+      pip install Pillow
     or you can get these packages by selecting packages with correct versions 
     from you python packages tab
 Run main.py file in pycharm 
